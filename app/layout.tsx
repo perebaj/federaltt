@@ -19,7 +19,7 @@ const fontMono = Font({
 
 export const metadata: Metadata = {
   title: "federaltt",
-  description: "Todos seus processos em um só lugar",
+  description: "vai se fuder elon musk, aqui é federal!",
 };
 
 export default function RootLayout({

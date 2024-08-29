@@ -24,7 +24,13 @@ export default function Component() {
       </header>
       <div className="grid h-screen grid-cols-2 bg-[#15202B]">
         <div className="flex items-center justify-center">
-          <Image src={xandeco} width={500} height={500} alt="xandeco" />
+          <Image
+            src={xandeco}
+            width={500}
+            height={500}
+            alt="xandeco"
+            className="rounded-sm"
+          />
         </div>
         <div className="flex min-h-screen items-center justify-center">
           <SignIn />

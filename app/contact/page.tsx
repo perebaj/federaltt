@@ -8,7 +8,7 @@ export default function Component() {
         <p className="text-lg font-medium text-muted-foreground">
           Made with love by the Ivy League engineers
         </p>
-        <h1 className="mt-2 text-3xl font-extrabold text-primary-foreground">
+        <h1 className="mt-2 text-3xl font-extrabold text-blue-400">
           Contact us
         </h1>
         <p className="mt-2 text-sm text-muted-foreground">

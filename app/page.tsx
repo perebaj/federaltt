@@ -12,7 +12,7 @@ export default function Component() {
     <div>
       <header className="flex items-center justify-between bg-[#15202B] px-6 py-4">
         <Link href="#" prefetch={false}>
-          <TwitterIcon className="mr-2 h-5 w-5" />
+          <TwitterIcon className="mr-1 h-10 w-10" />
         </Link>
         <Link
           href="/contact"
@@ -33,7 +33,9 @@ export default function Component() {
           />
         </div>
         <div className="flex min-h-screen items-center justify-center">
-          <SignIn />
+          <Button>
+            <Link href="/tt">Entrar</Link>
+          </Button>
         </div>
       </div>
     </div>
